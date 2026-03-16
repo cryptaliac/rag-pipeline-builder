@@ -83,3 +83,22 @@ pip install llama-index-vector-stores-opensearch llama-index-llms-ollama llama-i
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Use Cases
+
+This RAG pipeline builder can be adapted to a wide variety of domains. Here are a few examples:
+
+### 1. Internal Corporate Knowledge Base
+
+*   **Problem**: Employees spend too much time searching for information scattered across Confluence, Google Drive, and internal wikis.
+*   **Solution**: Use this workflow to ingest all internal documentation. Employees can then ask a single chatbot questions like, *"What is our Q3 marketing budget?"* or *"Summarize the security protocol for remote access."* The system provides direct answers with links to the source documents.
+
+### 2. Customer Support Automation
+
+*   **Problem**: Customer support teams are overwhelmed with repetitive questions. Customers want instant answers 24/7.
+*   **Solution**: Ingest all customer-facing documentation, including product manuals, FAQs, and troubleshooting guides. The resulting RAG-powered chatbot can be embedded on a website or app to answer customer queries like *"How do I reset my password?"* or *"My device won't turn on, what should I do?"*, reducing the load on human agents.
+
+### 3. Research and Legal Analysis Assistant
+
+*   **Problem**: Researchers, students, or legal professionals need to quickly synthesize information from a vast corpus of dense documents (e.g., academic papers, legal case files, financial reports).
+*   **Solution**: Create a specialized RAG system by ingesting a specific domain of documents. A user can then perform semantic searches and ask complex questions like *"What are the main arguments against this legal precedent?"* or *"Summarize the findings on protein folding from the latest papers."* The system acts as an intelligent assistant, accelerating research and analysis.
