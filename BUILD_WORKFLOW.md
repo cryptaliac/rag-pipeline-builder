@@ -1,4 +1,4 @@
-# RAG Pipeline Construction Workflow
+_# RAG Pipeline Construction Workflow
 
 This document outlines a complete, step-by-step workflow for building a production-ready RAG (Retrieval-Augmented Generation) system. It is designed to be followed by an AI code assistant or a developer to construct the pipeline from scratch.
 
